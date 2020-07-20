@@ -1,0 +1,6 @@
+#! /usr/local/bin/python3.8
+
+from bank.bank_account import BankAccount
+
+acct = BankAccount("Sameer", 1500)
+acct.statement()
